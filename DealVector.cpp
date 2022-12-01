@@ -6,7 +6,7 @@
 using std::vector;
 using std::string;
 
-vector<string> dealStrVector(vector<string> strVec, int n)
+vector<string> dealStrVector(const vector<string> & strVec, const int & n)
 {
     //计算可以组成多少个字符串
     int strNum = strVec.size() / 4;
